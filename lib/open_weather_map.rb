@@ -48,17 +48,3 @@ class OpenWeatherMap
  	 end
 
 end
-
-	# def export_data_csv(results)
-	# 	csv_string = CSV.generate do |csv|
-	# 		csv << ["humidity", "temp"]
-	# 		results.each do |item|
-	# 			csv << [item[:main][:humidity], item[:main][:temp]]
-	# 		end
-	# 	end
-	# end
-
-
-# obj = OpenWeatherMap.new(:city_name: df)
-# obj.fetch_data
-

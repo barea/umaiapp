@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weather_info: MyString
+  city_name: MyString
+  country: MyString
+  dt: 2021-06-28 17:37:59
+
+two:
+  weather_info: MyString
+  city_name: MyString
+  country: MyString
+  dt: 2021-06-28 17:37:59

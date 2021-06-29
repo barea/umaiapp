@@ -1,0 +1,43 @@
+<% if @weather.present? %>
+
+<p>
+  <strong>Weather info:</strong>
+  <%= @weatherHash[:weather] %>
+</p>
+
+<p>
+  <strong>temp:</strong>
+ <%= @weatherHash[:main][:temp] %>
+</p>
+
+<p>
+  <strong>feels_like:</strong>
+  <%= @weatherHash[:main][:feels_like] %>
+</p>
+
+<p>
+  <strong>humidity:</strong>
+  <%= @weatherHash[:main][:humidity] %>
+</p>
+
+
+<p>
+  <strong>City name:</strong>
+  <%= @weather.city_name %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @weather.country %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @weather.dt %>
+</p>
+
+
+<% end %>
+
+
+   
